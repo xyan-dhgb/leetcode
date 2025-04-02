@@ -1,6 +1,6 @@
+# Example input for testing
 firstString = "abcd"
 secondString = "pq"
-
 
 if len(firstString) == len(secondString):
     mergedString = ''.join(a + b for a, b in zip(firstString, secondString))
